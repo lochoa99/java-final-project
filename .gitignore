@@ -1,0 +1,19 @@
+### IntelliJ IDEA ###
+.idea/
+*.iml
+out/
+gen/
+*.iws
+
+### Java General ###
+*.class
+*.log
+
+### Mac OS ###
+.DS_Store
+.AppleDouble
+.LSOverride
+
+### Windows ###
+Thumbs.db
+desktop.ini
