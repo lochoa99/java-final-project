@@ -47,8 +47,8 @@ java-final-project/
 ## 💻 Instalación y Uso
 
 ### Requisitos Previos
-- Java JDK 11 o superior
-- IntelliJ IDEA (recomendado) o cualquier IDE de Java
+- Java JDK 8
+- IntelliJ IDEA
 
 ### Clonar el Repositorio
 ```bash
@@ -110,7 +110,7 @@ El diagrama de clases UML se encuentra en la carpeta `docs/UML_Diagram.png`
 
 ## 🛠️ Tecnologías Utilizadas
 
-- **Lenguaje**: Java 11+
+- **Lenguaje**: Java 8
 - **IDE**: IntelliJ IDEA
 - **Control de versiones**: Git & GitHub
 
