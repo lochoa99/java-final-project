@@ -12,4 +12,31 @@ public class Student {
         this.age = age;
         studentCount++;
     }
+    public String getName() {
+        return name;
+    }
+    public void setName(String name) {
+        this.name = name;
+    }
+    public int getId() {
+        return id;
+    }
+    public void setId(int id) {
+        this.id = id;
+    }
+    public int getAge() {
+        return age;
+    }
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public static int getStudentCount() {
+        return studentCount;
+    }
+    @Override
+    public String toString() {
+        return "Student [ID: " + id + ", Name: " + name + ", Age: " + age + "]";
+    }
 }
+
