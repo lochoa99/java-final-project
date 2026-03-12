@@ -21,6 +21,20 @@ public class Main {
         teachers.add(pt1);
         teachers.add(pt2);
 
+        Student s1 = new Student("Juan Perez", 101, 20);
+        Student s2 = new Student("Laura Sanchez", 102, 21);
+        Student s3 = new Student("Pedro Gomez", 103, 19);
+        Student s4 = new Student("Sofia Ramirez", 104, 22);
+        Student s5 = new Student("Diego Torres", 105, 20);
+        Student s6 = new Student("Valentina Cruz", 106, 23);
+
+        ArrayList<Student> students = new ArrayList<>();
+        students.add(s1);
+        students.add(s2);
+        students.add(s3);
+        students.add(s4);
+        students.add(s5);
+        students.add(s6);
 
     }
 }
