@@ -7,7 +7,6 @@ public class PartTimeTeacher extends Teacher {
         super(name, baseSalary);
         this.activeHoursPerWeek = activeHoursPerWeek;
     }
-
     @Override
     public double calculateSalary() {
         return Double.parseDouble(getBaseSalary()) * activeHoursPerWeek * 52;

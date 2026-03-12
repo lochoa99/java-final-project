@@ -28,7 +28,6 @@ public abstract class Teacher {
     public static int getTeacherCount() {
         return teacherCount;
     }
-
     @Override
     public String toString() {
         return "name: " + name + ", Base Salary: $" + String.format("%.2f", baseSalary);
