@@ -8,7 +8,6 @@ public class FullTimeTeacher extends Teacher {
         super(name, baseSalary);
         this.experienceYears = experienceYears;
     }
-
     @Override
     public double calculateSalary() {
         return Double.parseDouble(getBaseSalary()) * 1.10 * experienceYears;
