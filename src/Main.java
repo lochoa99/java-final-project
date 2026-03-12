@@ -36,5 +36,50 @@ public class Main {
         students.add(s5);
         students.add(s6);
 
+        // Class 1: Java Programming
+        ArrayList<Student> class1Students = new ArrayList<>();
+        class1Students.add(s1);
+        class1Students.add(s2);
+        class1Students.add(s3);
+        UniversityClass class1 = new UniversityClass("Java Programming", "Room 101", ft1, class1Students);
+
+        // Class 2: Data Structures
+        ArrayList<Student> class2Students = new ArrayList<>();
+        class2Students.add(s2);
+        class2Students.add(s4);
+        class2Students.add(s5);
+        UniversityClass class2 = new UniversityClass("Data Structures", "Room 202", ft2, class2Students);
+
+        // Class 3: Web Development
+        ArrayList<Student> class3Students = new ArrayList<>();
+        class3Students.add(s1);
+        class3Students.add(s5);
+        class3Students.add(s6);
+        UniversityClass class3 = new UniversityClass("Web Development", "Room 303", pt1, class3Students);
+
+        // Class 4: Database Systems
+        ArrayList<Student> class4Students = new ArrayList<>();
+        class4Students.add(s3);
+        class4Students.add(s4);
+        class4Students.add(s6);
+        UniversityClass class4 = new UniversityClass("Database Systems", "Room 404", pt2, class4Students);
+
+        ArrayList<UniversityClass> classes = new ArrayList<>();
+        classes.add(class1);
+        classes.add(class2);
+        classes.add(class3);
+        classes.add(class4);
+
+        // ============================
+        // Start the University Manager
+        // ============================
+
+        System.out.println("=== University Management System ===");
+        System.out.println("Loaded: " + Teacher.getTeacherCount() + " teachers, "
+                + Student.getStudentCount() + " students, " + classes.size() + " classes.\n");
+
+        UniversityManager manager = new UniversityManager(teachers, students, classes);
+        manager.startMenu();
+
     }
 }
